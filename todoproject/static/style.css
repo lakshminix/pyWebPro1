@@ -1,0 +1,13 @@
+.banner{
+       background-color: CornflowerBlue;
+       width:100%;
+       height:150px;
+       bottom-margin:50px;
+}
+.banner-text{
+        top:50%;
+        left:40%;
+        position:absolute;
+        transform:transform;
+
+}

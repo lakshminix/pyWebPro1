@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block body %}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="POST" class="p-3 shadow">
+                 {% csrf_token %}
+                 <div class="form-group">
+                 <b>{{f.as_p}}</b>
+                 <input type="submit">
+                  </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}
